@@ -30,7 +30,7 @@ _**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en 
 
 Paso 1: Instalar npm
 
-_Si no cuentas con npm, es necesario que lo instales, npm es un administrador de paquetes, [En este link](https://nodejs.org/es/) - puedes encontrar el instalador de npm. Selecciona la versión LTS ya que es la versión estable._
+_Si no cuentas con npm, es necesario que lo instales, npm es un administrador de paquetes, - [En este link](https://nodejs.org/es/) - puedes encontrar el instalador de npm. Selecciona la versión LTS ya que es la versión estable._
 
 Paso 2: Instalar la herramienta mágica
 
@@ -83,6 +83,6 @@ _Las herramientas utilizadas para este proyecto fueron:_
 ## Expresiones de Gratitud 🎁
 
 - Fundación educamás – Prográmate (bootcamp).
-- Formadores y Coformadores - Prográmate (bootcamp).
+- Formadores y Co formadores - Prográmate (bootcamp).
 - Simplon.co Grand Ouest.
 - A todos los compañeros del bootcamp.
