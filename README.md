@@ -28,11 +28,11 @@ _Para crear tu primer app de React únicamente tienes que seguir 5 pasos sencill
 
 _**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en inglés, 'Command Prompt', también conocido como **cmd.exe** o simplemente **cmd**), después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
 
-Paso 1: Instalar npm
+**Paso 1:** Instalar npm
 
 _Si no cuentas con npm, es necesario que lo instales, npm es un administrador de paquetes, - [En este link](https://nodejs.org/es/) - puedes encontrar el instalador de npm. Selecciona la versión LTS ya que es la versión estable._
 
-Paso 2: Instalar la herramienta mágica
+**Paso 2:** Instalar la herramienta mágica
 
 _El equipo de Facebook ha creado una herramienta fácil de usar para evitarnos toda la configuración y la preparación que requiere React. La herramienta se llama create-react-app y necesitamos npm para instalarla._
 
@@ -44,13 +44,13 @@ _Si usas Windows, remueve el sudo para instalar la herramienta._
 
 - npm install -g create-react-app
 
-Paso 3: Crear la app de React
+**Paso 3:** Crear la app de React
 
 _En la terminal ubícate (con el comando cd desktop por ejemplo) en el lugar donde quieras que se genere la app (proyecto) de React y ejecuta el siguiente comando._
 
 - npx create-react-app mi-primer-app
 
-Paso 4: Corre tu app de React
+**Paso 4:** Corre tu app de React
 
 _Primero que nada muévete a la carpeta del proyecto que acabas de crear en la terminal (cd mi-primer-app). Abre tu proyecto en un editor de texto, que debe de tener la siguiente estructura._
 
@@ -58,7 +58,7 @@ _Una vez que hayas corroborado que tu proyecto se generó de manera exitosa, eje
 
 _Automáticamente se abrirá el localhost (http://localhost:3000) y ahí mismo correrá la app._
 
-Paso 5: Personaliza tu app
+**Paso 5:** Personaliza tu app
 
 ## Despliegue 📦
 
