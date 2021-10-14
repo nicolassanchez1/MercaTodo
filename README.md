@@ -68,7 +68,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Las herramientas utilizadas para este proyecto fueron:_
 
-- [Javascript](https://www.javascript.com/) - Usado ccomo lenguaje de programación del lado del navegador
+- [Javascript](https://www.javascript.com/) - Usado como lenguaje de programación del lado del navegador
 - [React js](https://es.reactjs.org/) - librería de Javascript diseñada para crear interfaces de usuario
 - [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución para JavaScript
 - [NPM](https://www.npmjs.com/) - Sistema de gestión de paquetes por defecto para Node.js
