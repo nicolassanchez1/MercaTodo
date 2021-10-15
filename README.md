@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Frontend - MercaTodo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_Este proyecto coloca en práctica, las habilidades de trabajo colaborativo utilizando el control de versiones git, github, netlify (plataforma de servicios en la nube) y los conocimientos adquiridos sobre react js. En el bootcamp prográmate de la fundación Educamás._
 
-## Available Scripts
+**¿Qué es React JS?**
 
-In the project directory, you can run:
+_Es una librería creada por el equipo de desarrollo de Facebook para la creación de interfaces gráficas de usuario._
 
-### `npm start`
+## Comenzando 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1- Abre la Git Bash.
 
-### `npm test`
+2- Cambia el directorio de trabajo actual a la ubicación en donde quieres clonar el directorio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3- Escribe git clone, y luego pega la URL que copiaste antes.
 
-### `npm run build`
+- $ git clone https://github.com/NiicolasDev/MercaTodo.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4- Presiona Enter para crear tu clon local.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Instalación 🔧
 
-### `npm run eject`
+_Para crear tu primer app de React únicamente tienes que seguir 5 pasos sencillos._
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_**Nota:** los comandos se ejecutaron el intérprete de comando de Windows, (en inglés, 'Command Prompt', también conocido como **cmd.exe** o simplemente **cmd**), después de la creación de la carpeta se inicializo el repositorio de git y github, se configuro el archivo gititnore._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Paso 1:** Instalar npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+_Si no cuentas con npm, es necesario que lo instales, npm es un administrador de paquetes, - [En este link](https://nodejs.org/es/) - puedes encontrar el instalador de npm. Selecciona la versión LTS ya que es la versión estable._
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Paso 2:** Instalar la herramienta mágica
 
-## Learn More
+_El equipo de Facebook ha creado una herramienta fácil de usar para evitarnos toda la configuración y la preparación que requiere React. La herramienta se llama create-react-app y necesitamos npm para instalarla._
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Corre el siguiente comando en la terminal para que descargues la librería de React en tu computadora._
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- sudo npm install -g create-react-app
 
-### Code Splitting
+_Si usas Windows, remueve el sudo para instalar la herramienta._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- npm install -g create-react-app
 
-### Analyzing the Bundle Size
+**Paso 3:** Crear la app de React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_En la terminal ubícate (con el comando cd desktop por ejemplo) en el lugar donde quieras que se genere la app (proyecto) de React y ejecuta el siguiente comando._
 
-### Making a Progressive Web App
+- npx create-react-app mi-primer-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Paso 4:** Corre tu app de React
 
-### Advanced Configuration
+_Primero que nada muévete a la carpeta del proyecto que acabas de crear en la terminal (cd mi-primer-app). Abre tu proyecto en un editor de texto, que debe de tener la siguiente estructura._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+_Una vez que hayas corroborado que tu proyecto se generó de manera exitosa, ejecuta el comando npm start para correr la app de React._
 
-### Deployment
+_Automáticamente se abrirá el localhost (http://localhost:3000) y ahí mismo correrá la app._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Paso 5:** Personaliza tu app
 
-### `npm run build` fails to minify
+## Despliegue 📦
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Agrega notas adicionales sobre como hacer deploy_
+
+## Construido con 🛠️
+
+_Las herramientas utilizadas para este proyecto fueron:_
+
+- [Javascript](https://www.javascript.com/) - Usado como lenguaje de programación del lado del navegador
+- [React js](https://es.reactjs.org/) - librería de Javascript diseñada para crear interfaces de usuario
+- [Node.js](https://nodejs.org/es/) - Es un entorno de ejecución para JavaScript
+- [NPM](https://www.npmjs.com/) - Sistema de gestión de paquetes por defecto para Node.js
+
+## Autores ✒️
+
+- **Yanith rodríguez** - [yicell52](https://github.com/yicell52)
+- **Nicolás Sánchez** - [NiicolasDev](https://github.com/NiicolasDev)
+- **Sebastián Ocampo** - [SebasO8](https://github.com/SebasO8)
+- **Guillermo Garcia Soto** - [Gasogui](https://github.com/Gasogui)
+
+## Expresiones de Gratitud 🎁
+
+- Fundación educamás – Prográmate (bootcamp).
+- Formadores y Co formadores - Prográmate (bootcamp).
+- Simplon.co Grand Ouest.
+- A todos los compañeros del bootcamp.
