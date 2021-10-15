@@ -1,0 +1,70 @@
+.container-main {
+    padding: 40px;
+}
+
+.fa-shopping-basket,
+.fa-user-circle {
+    color: #5CAF2A;
+}
+
+.fa-user-circle {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #212529 !important;
+}
+
+.text-sesion:hover {
+    text-decoration: underline;
+}
+
+.text-sesion {
+    font-weight: 300;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 414px) {
+    .container-main {
+        padding: 30px 10px 20px 10px;
+    }
+
+    h4 {
+        margin: 0 0 10px 0;
+    }
+
+    .text-sesion {
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fa-user-circle {
+        font-size: 30px;
+    }
+
+    .container-buttons {
+        width: 100%;
+    }
+
+    .btn-danger {
+        color: #fff;
+        background-color: #dc3545 !important;
+        border-color: #dc3545 !important;
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin: 10px 5px 10px 5px;
+    }
+    .form{
+        width: 400px;
+    }
+}

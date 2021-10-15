@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import {
+    Switch,
+    Route,
+    useLocation
+} from "react-router-dom";
+import ProductsForm from './components/productsForm/ProductsForm';
+import Login from './components/login/Login';
+import Home from './components/home/Home';
+import Header from './components/header/Header'
+import Spinner from './components/spinner/Spinner';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    const { pathname } = useLocation();
+    const [isLogin, setisLogin] = useState(false)
+    const [credentials, setCredentials] = useState({ user: '', password: '' });
+    const [cargando, guardarSpinner] = useState(false)
+
+    let componentes;
+    if (cargando) {
+        componentes = <Spinner />
+    }
+    return (
+
+        <>
+            {pathname !== "/login" && (<Header
+                isLogin={isLogin}
+                setisLogin={setisLogin}
+                credentials={credentials}
+                setCredentials={setCredentials}
+            />)}
+            <Switch>
+                {/* <Home /> */}
+                <Route exact path="/">
+                    <Home
+                        isLogin={isLogin}
+                        setisLogin={setisLogin}
+                        credentials={credentials}
+                        setCredentials={setCredentials}
+                    />
+                </Route>
+                <Route path="/agregar" component={ProductsForm} />
+                <Route path="/update/:id" component={ProductsForm} />
+                <Route path="/login">
+                    <Login
+                        isLogin={isLogin}
+                        setisLogin={setisLogin}
+                        credentials={credentials}
+                        setCredentials={setCredentials}
+                        guardarSpinner={guardarSpinner}
+                        cargando={cargando}
+                    />
+                </Route>
+            </Switch>
+            <div className="mensajes">
+                {componentes}
+            </div>
+        </>
+    )
 }
 
-export default App;
+export default App

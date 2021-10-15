@@ -1,0 +1,11 @@
+.containerSearch{
+    width: 70%;
+    margin: auto;
+}
+.searchBox:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #4db350 !important ;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(77 179 80 / 43%) !important;
+}
